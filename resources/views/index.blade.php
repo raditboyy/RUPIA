@@ -233,7 +233,7 @@
                         <span class="balance-label">TOTAL SALDO</span>
                         <h2 class="balance-amount">Rp {{ number_format($totalBalance ?? 0, 0, ',', '.') }}</h2>
                         <div class="btn-group">
-                            <a href="{{ url('/topup') }}" class="btn btn-light">Top Up</a>
+                            <a href="{{ url('/topup') }}" class="btn btn-light">Catat Pemasukan</a>
                             <a href="{{ url('/transaction/create') }}" class="btn btn-outline-dark">Catat Keluar</a>
                         </div>
                     </div>
